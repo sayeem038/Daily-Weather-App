@@ -1,4 +1,7 @@
-# Weather Forcasting Web App
+# Live Link:
+https://sayeem038.github.io/Daily-Weather-App/
+
+# Daily Weather Forcasting Web App
 Welcome to our Weather Forecasting App repository! This project provides a simple and intuitive way to check the weather forecast for different cities, with responsiveness. With this app, users can quickly access essential weather information including temperature, wind speed, visibility, and humidity, along with a suitable image(`.gif`) representing the weather conditions.
 
 ## Features
@@ -15,14 +18,6 @@ Welcome to our Weather Forecasting App repository! This project provides a simpl
 - **`style.css`:** Cascading Style Sheets (CSS) file used for styling the HTML elements and making the app visually appealing.
 - **`script.js`:** JavaScript file containing the logic and functionality of the weather forecasting app.
 - **`Other Files`:** Additional GIFs used to represent different weather conditions, Favicon also.
-
-## Mobile View
-
-![Screenrecording](https://github.com/Suvadip-sana/weather_app/assets/78638404/e999ffd8-f064-4842-b119-8e2bfcb5171d) 
-
-## Desktop View
-
-![Screenshot](https://github.com/Suvadip-sana/weather_app/assets/78638404/d1043254-ee19-4b64-ad10-367d0a2b6cc7)
 
 ## Usage
 
