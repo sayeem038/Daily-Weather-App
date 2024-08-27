@@ -5,10 +5,10 @@
 Welcome to our Weather Forecasting App repository! This project provides a simple and intuitive way to check the weather forecast for different cities, with responsiveness. With this app, users can quickly access essential weather information including temperature, wind speed, visibility, and humidity, along with a suitable image(`.gif`) representing the weather conditions.
 
 ## Features
-**-Current Weather Data:** Displays the current temperature, weather conditions, wind speed, humidity, and other relevant information.
-**-15-Day Weather Forecast:** Provides a detailed forecast for the next 15 days, including temperature highs and lows, and weather conditions.
-**-Responsive Design:** The app is designed to work on various devices, including desktops, tablets, and smartphones.
-**-User-Friendly Interface:** A clean and intuitive layout makes it easy for users to find and understand weather information.
+**Current Weather Data:** Displays the current temperature, weather conditions, wind speed, humidity, and other relevant information.
+**15-Day Weather Forecast:** Provides a detailed forecast for the next 15 days, including temperature highs and lows, and weather conditions.
+**Responsive Design:** The app is designed to work on various devices, including desktops, tablets, and smartphones.
+**User-Friendly Interface:** A clean and intuitive layout makes it easy for users to find and understand weather information.
 
 ## Files
 
