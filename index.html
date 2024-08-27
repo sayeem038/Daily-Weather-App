@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" rel="icon" sizes="16x16" href="weather-app.png">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location." class="input-val">
+            <button id="searchButton" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+
+        <div class="not-found">
+            <h3>Sorry. Location not found!!!</h3>
+            <img src="407.png" alt="404 not found">
+        </div>
+
+
+        <div class="display">
+            <img src="rain.gif" alt="Weather Status" class="weather-status">
+            <div class="weather-details">
+                <p class="weather-data">0 <sup>°C</sup></p>
+                <p class="weather-data2">Rainy</p>
+            </div>
+            <div class="weather-description">
+                <div class="humidity">
+                    <img src="humidity-unscreen.gif" alt="Humidity">
+                    <div class="text">
+                        <span id="humidity">30%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="visibility">
+                    <img src="vision-unscreen.gif" alt="Visibility">
+                    <div class="text1">
+                        <span id="visibility">3 km</span>
+                        <p>Visibility</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img src="wind-unscreen.gif" alt="Wind Speed">
+                    <div class="text3">
+                        <span class="special" id="wind-speed">11 Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 3-day forecast section -->
+        <div class="forecast">
+            <div class="forecast-item">
+                <img src="cloudy.gif" alt="Day 1" class="forecast-icon">
+                <p class="forecast-date" id="day1-date">Day 1</p>
+                <p class="forecast-temp" id="day1-temp">20 <sup>°C</sup></p>
+                <p class="forecast-desc" id="day1-desc">Clear</p>
+            </div>
+            <div class="forecast-item">
+                <img src="cloudy.gif" alt="Day 2" class="forecast-icon">
+                <p class="forecast-date" id="day2-date">Day 2</p>
+                <p class="forecast-temp" id="day2-temp">22 <sup>°C</sup></p>
+                <p class="forecast-desc" id="day2-desc">Cloudy</p>
+            </div>
+            <div class="forecast-item">
+                <img src="cloudy.gif" alt="Day 3" class="forecast-icon">
+                <p class="forecast-date" id="day3-date">Day 3</p>
+                <p class="forecast-temp" id="day3-temp">19 <sup>°C</sup></p>
+                <p class="forecast-desc" id="day3-desc">Rainy</p>
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://kit.fontawesome.com/38b8bff489.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+    <footer>
+        <p> Copyright &copy; 2024 Daily Weather App</p>
+        <p>Designed with &#129505; by <span>Sayeem</span></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #011d1f, #054556, #5c808a);
+    margin-bottom: auto;
+    position: relative;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    height: min-content;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.search {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(218, 245, 244);
+    border-radius: 35px;
+}
+
+
+.search i {
+    position: relative;
+    left: 15px;
+    padding-right: 7px;
+    font-size: 20px;
+    color: #5e5e5e;
+}
+
+
+.search input {
+    width: 85%;
+    font-size: 18px;
+    background: transparent;
+    padding: 12px 18px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    color: #979797;
+}
+
+
+.search input::placeholder {
+    color: #8c8c8c;
+}
+
+
+.search button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(218, 245, 244);
+    border-radius: 50px;
+    font-size: 25px;
+    color: #5e5e5e;
+    transition: all 0.5s;
+}
+
+
+.search button:hover {
+    background-color: #08b8c8;
+    color: #fff;
+}
+
+
+.display {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 20px;
+    background-color: #fff;
+    margin-bottom: auto;
+}
+
+
+.display img {
+    width: 50%;
+}
+
+
+.weather-details {
+    margin-block: 10px;
+    text-align: center;
+}
+
+
+.weather-details .weather-data {
+    font-weight: 500;
+    font-size: 40px;
+    color: #717171;
+}
+
+
+.weather-details .weather-data sup {
+    font-size: 17px;
+    color: #717171;
+}
+
+
+.weather-details .weather-data2 {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 25px;
+    color: #08b8c8;
+}
+
+
+.weather-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.humidity, .wind, .visibility {
+    margin-bottom: 7px;
+    padding: 14px;
+    background-color: rgb(221, 255, 252);
+    border-radius: 23px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.text span, .text1 span, .text3 span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #717171;
+}
+
+
+.text p, .text1 p, .text3 p {
+    font-size: 14px;
+    color: #08b8c8;
+}
+
+
+.weather-description img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.not-found {
+    margin-top: 25px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.not-found h3 {
+    font-size: 20px;
+    color: #4299cf;
+    margin-block-end: 10px;
+}
+
+
+.not-found img {
+    width: 75%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #011d1f;
+    color: #cccccc;
+    padding-block: 5px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    z-index: 10;
+    font-weight: 100;
+}
+
+
+footer p {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+footer span {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+/* Forecast section styling */
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.forecast-item {
+    flex: 1;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 5px;
+    width: 100px; /* Adjusted width */
+}
+
+
+.forecast-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+.forecast-date {
+    font-size: 14px;
+    color: #717171;
+    margin-top: 5px;
+}
+
+
+.forecast-temp {
+    font-size: 18px;
+    color: #717171;
+    margin-top: 5px;
+}
+
+
+.forecast-desc {
+    font-size: 14px;
+    color: #08b8c8;
+    margin-top: 5px;
+}
+
